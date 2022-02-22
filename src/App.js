@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./Components/Header";
+import React from "react";
 
 function App() {
+  // const name = 'Piush'
+  // const a = 1, b = 2
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Header title={2} appname="Google Play Store"/> */}
+      <Header/>
+      
+
     </div>
   );
+
 }
+
+// From class
+// class App extends React.Component{
+//   render(){
+
+//     return (
+//       <div className="App">
+//       <Header/>
+//       {/* <h1>Hello World</h1> */}
+//       {/* <h1>{name}</h1> */}
+//       {/* <h1>{a+b}</h1> */}
+
+//       </div>
+//     )
+//   }
+// }
 
 export default App;
